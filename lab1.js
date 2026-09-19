@@ -2,12 +2,11 @@ console.log("Hello, World!");
 
 // Bài 1 – Khai báo biến
 let name = "Nguyen Van A";
-const age = 20;
 const email = "a@gmail";
 
 console.log("Ten toi la: " + name);
-console.log("Tuoi: " + age);
 console.log("Email: " + email);
+
 
 // Bài 2 – Thay đổi giá trị biến
 
@@ -20,6 +19,7 @@ age = 21;
 console.log(age);
 
 
+// Bài 3 – Tính toán với biến
 const a = 10;
 const b = 5;
 
@@ -37,3 +37,30 @@ function sayHello(name) {
 sayHello("An");
 sayHello("Minh");
 sayHello("Quân");
+
+
+// Bài 5 – Hàm tính tổng
+function sum(a, b) {
+    return a + b;
+}
+
+let result = sum(10, 20);
+console.log(result);
+
+
+// Bài 6 – Hàm tính tiền
+function calculateTotal(price, quantity) {
+    return price * quantity;
+}
+
+let total = calculateTotal(10, 5);
+console.log(total);
+
+
+// Bài 7 – Hàm tính điểm trung bình
+function calculateAverage(math, english, javascript) {
+    return (math + english + javascript) / 3;
+}
+
+let average = calculateAverage(8, 7, 9);
+console.log(average);
